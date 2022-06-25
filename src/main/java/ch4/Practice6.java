@@ -8,7 +8,7 @@ public class Practice6 {
     public static void main(String[] args) {
         // 1. Generate a random angle
         double angle1 = 360 - 360 * Math.random();
-        double angle2 = (360 - angle1) * Math.random();
+        double angle2 = (360 - angle1) * Math.random() + angle1;
         double angle3 = 360 - angle1 - angle2;
 
         // 2. Generate three points
