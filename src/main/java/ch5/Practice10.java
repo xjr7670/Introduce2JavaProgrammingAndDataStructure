@@ -9,16 +9,17 @@ public class Practice10 {
         // some const variable
         final int LINE_LENGTH = 10;
         int count = 0;
+        System.out.println("The numbers can divisible by 3 and 4 between 100 and 200 are: ");
         for (int i = 100; i <= 1000; i++) {
             if (i % 12 == 0) {
                 System.out.print(i);
                 ++count;
-            }
-            if (count == 10) {
-                System.out.println();
-                count = 0;
-            } else {
-                System.out.print(" ");
+                if (count == 10) {
+                    System.out.println();
+                    count = 0;
+                } else {
+                    System.out.print(" ");
+                }
             }
         }
     }
