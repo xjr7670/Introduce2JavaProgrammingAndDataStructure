@@ -1,4 +1,4 @@
-package com.xjr7670.ch3;
+package ch3;
 
 import java.util.Scanner;
 
